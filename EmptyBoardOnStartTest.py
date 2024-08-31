@@ -1,5 +1,6 @@
 import unittest
 from typing import List
+from Game import Game
 
 
 class EmptyBoardOnStartTest(unittest.TestCase):
@@ -19,3 +20,4 @@ class EmptyBoardOnStartTest(unittest.TestCase):
 
     def then_the_board_is_empty(self):
         assert self.game.board.isEmpty() == True
+
