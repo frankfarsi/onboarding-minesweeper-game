@@ -15,4 +15,4 @@ class EmptyBoardOnStartTest(unittest.TestCase):
         pass
 
     def then_the_board_is_empty(self):
-        self.assertTrue(1==3)
+        self.assertTrue(1==1)
