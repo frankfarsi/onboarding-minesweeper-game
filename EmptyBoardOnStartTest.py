@@ -1,7 +1,10 @@
 import unittest
+from typing import List
 
 
 class EmptyBoardOnStartTest(unittest.TestCase):
+    def setUp(self):
+        self.game = Game()
 
     def test_board_is_empty_on_start(self):
         self.given_the_game_is_not_started()
@@ -9,10 +12,10 @@ class EmptyBoardOnStartTest(unittest.TestCase):
         self.then_the_board_is_empty()
 
     def given_the_game_is_not_started(self):
-        pass
+        game = Game()
 
     def when_the_game_is_started(self):
-        pass
+        self.game.start()
 
     def then_the_board_is_empty(self):
-        self.assertTrue(1==1)
+        assert self.game.board.isEmpty() == True
