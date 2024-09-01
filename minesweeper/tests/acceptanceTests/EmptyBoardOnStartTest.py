@@ -1,6 +1,5 @@
 import unittest
-from typing import List
-from Game import Game
+from minesweeper.src.Game import Game
 
 
 class EmptyBoardOnStartTest(unittest.TestCase):

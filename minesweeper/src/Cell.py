@@ -1,4 +1,4 @@
-from State import State
+from minesweeper.src.State import State
 
 
 class Cell:

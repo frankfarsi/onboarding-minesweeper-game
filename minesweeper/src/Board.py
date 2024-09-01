@@ -1,8 +1,8 @@
 from pdb import find_function
 from typing import List
 
-from Cell import Cell
-from State import State
+from minesweeper.src.Cell import Cell
+from minesweeper.src.State import State
 
 
 class Board:

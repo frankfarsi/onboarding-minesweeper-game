@@ -13,4 +13,4 @@ jobs:
 
       - name: Test the Board is Empty on Start
         run: |
-          python -m unittest EmptyBoardOnStartTest.py
+          python -m unittest minesweeper/tests/acceptanceTests/EmptyBoardOnStartTest.py
