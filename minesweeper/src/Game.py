@@ -1,4 +1,4 @@
-from Board import Board
+from minesweeper.src.Board import Board
 
 
 class Game:

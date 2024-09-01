@@ -1,8 +1,8 @@
 import unittest
 
-from Cell import Cell
-from Game import Game
-from State import State
+from minesweeper.src.Cell import Cell
+from minesweeper.src.Game import Game
+from minesweeper.src.State import State
 
 
 class EmptyBoardUnitTest(unittest.TestCase):
