@@ -8,7 +8,7 @@ Your first code contribution will be to add your name to a the `CONTRIBUTERS.md`
 2. Click on the New Issue button.
 3. Fill in the title with ```docs : add <Name> to Contributers.md``` 
 4. Fill description with a brief description of the Tasks.
-5. Label the issue with the `documentation` label in the right side of the page.
+5. Label the issue with the `documentation` label on the right side of the page.
 6. Submit your first issue!
 
 **Note:** Wait for Repository maintainers to process issue before beginning work on the issue.
@@ -78,7 +78,7 @@ ___
 ```git branch -d <branch-name>```
 4. Git log to make sure the changes are there.
 ```git log --oneline```
-
+---
 
 ## Creating an Issue
 
