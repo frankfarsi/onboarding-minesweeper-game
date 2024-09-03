@@ -64,8 +64,20 @@ ___
 ***Maintainer***:
 
 1. Make sure to **SQUASH** merge the changes. (can be forced in the settings of the repository)
+2. Make sure to delete the branch after merging.
+3. Close the issue.
 
 ---
+**Contributor**:
+
+1. Switch back to the main branch.
+```git checkout main```
+2. Pull the changes from the repository.
+```git pull origin main```
+3. Delete the branch.
+```git branch -d <branch-name>```
+4. Git log to make sure the changes are there.
+```git log --oneline```
 
 
 ## Creating an Issue
