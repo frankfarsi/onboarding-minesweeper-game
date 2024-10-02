@@ -1,11 +1,11 @@
 import unittest
 
-from minesweeper.src.Cell import Cell
 from minesweeper.src.Game import Game
-from minesweeper.src.State import State
+from minesweeper.tests.unittests.BoardUtilies import BoardUtilities
 
 
 class EmptyBoardUnitTest(unittest.TestCase):
+
 
     def setUp(self):
         self.game = Game()
@@ -18,14 +18,6 @@ class EmptyBoardUnitTest(unittest.TestCase):
         assert self.game.isRunning == True
 
     def test_board_is_empty_on_start(self):
-        expected_cells = []
-        for i in range(9):
-            row= []
-            for j in range(9):
-                row.append(Cell(State.EMPTY))
-            expected_cells.append(row)
-
-        print(self.game.board.cells)
-
-        assert self.game.board.cells == expected_cells
+        assert self.game.board.cells == BoardUtilities.create_empty_board()
         assert self.game.board.isEmpty() == True;
+
