@@ -4,4 +4,6 @@ Contributer list:
 - Jane Doe (jane.doe@grey-box.ca)
 - Student intern (student-intern@grey-box.ca)
 - Frank-Norris El Farsi (personal) (f.n.elfarsi@gmail.com)
+- Andrew Mitchell (andrew.mitchell@grey-box.ca)
 - Christopher Van Dyke (christopher.dyke@grey-box.ca)
+
