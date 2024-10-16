@@ -5,3 +5,6 @@ Contributer list:
 - Student intern (student-intern@grey-box.ca)
 - Frank-Norris El Farsi (personal) (f.n.elfarsi@gmail.com)
 - Vishal Vincentsundar (vishal.vincentsundar@grey-box.ca)
+- Saanvi Agrawal (saanvi.agrawal@grey-box.ca)
+- Andrew Mitchell (andrew.mitchell@grey-box.ca)
+- Christopher Van Dyke (christopher.dyke@grey-box.ca)
